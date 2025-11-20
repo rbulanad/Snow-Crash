@@ -1,0 +1,7 @@
+1.	SCP the executable to host, decompile
+2.	A simple IF() condition prevents us from getting token
+3.	Use (gdb) on executable
+4.	set a breakpoint on main (b main)
+5.	run
+6.	jump after the call for exit()
+7.	token displays

