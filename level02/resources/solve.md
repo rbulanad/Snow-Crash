@@ -4,7 +4,7 @@
 
 3. Follow TCP stream --> can see communications (such as keyboard inputs)
 
-4. Check inputs for password --> '.' == non printable characters --> switch to HEX view to see character code
+4. Go to "Password:" request line. Check inputs for password --> '.' == non printable characters --> switch to HEX view to see character code
 
 5. translate HEX codes to ASCII equivalent to see keyboard inputs
 
