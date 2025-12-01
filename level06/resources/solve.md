@@ -1,3 +1,5 @@
+<h2>Exploit used: Command injection</h2>
+
 1.	PHP script that uses preg_replace in a peculiar way
 
 2.	Script contains 2 functions 'y' and 'x'.
