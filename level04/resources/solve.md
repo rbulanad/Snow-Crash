@@ -1,3 +1,5 @@
+<h2>Exploit used: Command injection</h2>
+
 1. level04.pl has SETUID --> we can make it execute the 'getflag' command
 
 2. .pl script uses CGI module (mini web serv) with "param" on localhost:4747, it just echoes whatever is given to "params"
