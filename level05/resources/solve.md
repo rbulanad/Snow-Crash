@@ -1,3 +1,5 @@
+<h2>Exploit used: CRON Privilege escalation</h2>
+
 1.	We receive notification "You have new mail."
 
 2.	Do `find / -name "mail" 2>/dev/null` ==	/usr/lib/byobu/mail and /var/mail
