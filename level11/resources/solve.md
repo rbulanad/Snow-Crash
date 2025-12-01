@@ -1,4 +1,4 @@
-<h2>Exploit used:</h2>
+<h2>Exploit used: Command injection</h2>
 
 1. The script 'level11.lua' uses `socket.bind("127.0.0.1", 5151)`
 
