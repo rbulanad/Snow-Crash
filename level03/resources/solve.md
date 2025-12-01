@@ -1,3 +1,5 @@
+<h2>Exploit used: PATH manipulation/Privilege Escalation</h2>
+
 1. `scp -P 4242 level03@IP_OF_VM:/path/to/fileVM /path/targetHOST` to transfer executable 'level03' from VM to HOST
 
 2. Read a decompiled version with DecompileExplorer --> dewolf = best
