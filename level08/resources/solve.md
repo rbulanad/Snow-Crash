@@ -1,3 +1,5 @@
+<h2>Exploit used: Symlink Attack</h2>
+
 1. Executable 'level08' prints the contents of a given file to the terminal
 
 2. It obviously does not work with the provided file 'token'.
