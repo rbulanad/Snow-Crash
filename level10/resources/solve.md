@@ -1,4 +1,4 @@
-<h2>Exploit used: Time-Of-Check Time-Of-Use (TOCTOU)</h2>
+<h2>Exploit used:</h2>
 
 1. Executable 'level10' takes a file (argv1) and sends them to a host (argv2) on port 6969, printing the contents of the file to the host's terminal
 
