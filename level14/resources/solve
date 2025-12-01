@@ -1,6 +1,0 @@
-1.	use (gdb) on /bin/getflag
-2.	breakpoint main
-3.	run
-4.	breakpoint *0x08048dff  (identify ft_des + fputs pattern, isolate the last bloc of that pattern, each pattern block is a flag for a level)
-5.	jump *0x08048de5
-6.	'continue' or 'ni' until token displays
