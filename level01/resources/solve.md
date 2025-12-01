@@ -1,3 +1,5 @@
+<h2>New Tool🛠: John The Ripper, password cracker</h2>
+
 1. Show all users with `getent passwd`
 
 2. "flag01" line is different --> hashed password is visible
